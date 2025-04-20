@@ -1,0 +1,282 @@
+	['npds_junk_green_33'] = { 
+		label = 'Junk Green', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "33 ML Bounch around with some wings.", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { model = 'npds_greenjunk_33', 
+			bone = 18905,
+			pos = vec3(0.14, 0.02, 0.02), 
+			rot = vec3(99.0, 17.0, 138.0) }, 
+			usetime = 5000, 
+		}, 
+	},
+
+	['npds_junk_blue_33'] = { 
+		label = 'Junk Blue', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "33 ML Bounch around with some wings.", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { model = 'npds_bluejunk_33', 
+			bone = 18905,
+			pos = vec3(0.14, 0.02, 0.02), 
+			rot = vec3(99.0, 17.0, 138.0) }, 
+			usetime = 5000, 
+		}, 
+	},
+	['npds_junk_red_33'] = { 
+		label = 'Junk Red', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "33 ML Bounch around with some wings.", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { model = 'npds_redjunk_33', 
+			bone = 18905,
+			pos = vec3(0.14, 0.02, 0.02), 
+			rot = vec3(99.0, 17.0, 138.0) }, 
+			usetime = 5000, 
+		}, 
+	},
+	['npds_junk_red_50'] = { 
+		label = 'Junk Red', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "50 ML Bounch around with some wings.", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_redjunk_50', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_junk_green_50'] = { 
+		label = 'Junk Green', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "50 ML Bounch around with some wings.", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_greenjunk_50', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_junk_blue_50'] = { 
+		label = 'Junk Blue', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "50 ML Bounch around with some wings.", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_bluejunk_50', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_slime_01_cap'] = { 
+		label = 'Sweet Pickle Closed', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a'},
+			prop = { model = 'npds_slime_01_cap',   
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.04) ,
+			rot = vec3(28.0, 32.0, -28.0) }, 
+			usetime = 3500,
+		}  
+	},
+	['npds_slime_02_cap'] = { 
+		label = 'Blue Waffles Closed', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a'},
+			prop = { model = 'npds_slime_02_cap',   
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.04) ,
+			rot = vec3(28.0, 32.0, -28.0) }, 
+			usetime = 3500,
+		}  
+	},
+	['npds_slime_03_cap'] = { 
+		label = 'Nuke Puked Closed', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a'},
+			prop = { model = 'npds_slime_03_cap', 
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.04) ,
+			rot = vec3(28.0, 32.0, -28.0) }, 
+			usetime = 3500,
+		}  
+
+	},
+	['npds_slime_04_cap'] = { 
+		label = 'Blue Meth Closed', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Slime Original Hydrate and Energize", 
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a'},
+			prop = { model = 'npds_slime_04_cap', 
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.04) ,
+			rot = vec3(28.0, 32.0, -28.0) }, 
+			usetime = 3500,
+		}  
+
+	},
+	['npds_slime_05_cap'] = { 
+		label = 'Pink Sloth Closed', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Slime Original Hydrate and Energize", 
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a'},
+			prop = { model = 'npds_slime_05_cap', 
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.04) ,
+			rot = vec3(28.0, 32.0, -28.0) }, 
+			usetime = 3500,
+		}  
+
+	},
+	['npds_slime_01'] = { 
+		label = 'Sweet Pickle', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_bottle_slime_01', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_slime_02'] = { 
+		label = 'Blue Waffles', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_bottle_slime_02', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_slime_03'] = { 
+		label = 'Nuke Puked', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_bottle_slime_03', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_slime_04'] = { 
+		label = 'Blue Meth', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_bottle_slime_04', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
+	['npds_slime_05'] = { 
+		label = 'Pink Sloth', 
+		weight = 350, 
+		stack = true, 
+		close = true, 
+		description = "Hydrate and Energize with Run it Up", 
+		client = { 
+			status = { thirst = 210000 }, 
+			anim = { dict = 'mp_player_intdrink', 
+			clip = 'loop_bottle' }, 
+			prop = { 
+				model = 'npds_bottle_slime_05', 
+				bone = 18905,
+				pos = vec3(0.11, -0.04, 0.04), 
+				rot = vec3(-100.0, 2.0, -30.0) 
+			}, 
+		usetime = 5000, 
+		}, 
+	},
