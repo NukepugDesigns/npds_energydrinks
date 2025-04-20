@@ -10,7 +10,7 @@ Junk Green 33ml and 50 ml version
 Junk Red   33ml and 50 ml version
 
 2x Slime regular  50 ml version
-3s Slime Special Run it Up editions  50 ml version
+3x Slime Special Run it Up editions  50 ml version
 
 In the install folder you will find the items and images
 Place the items in youre ox_inventory items.lua
